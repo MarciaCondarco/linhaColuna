@@ -1,0 +1,64 @@
+/* Classes para a linhas e colunas */
+.linha{
+    display:flex;
+    flex-wrap: wrap;
+    /* se pode quebrar linhas ou não */
+    margin: 10px;
+}
+
+.linha>div{
+    border: 2px solid tomato;
+}
+
+/* o sinal de mais significa se tiver , no caso é uma DIV */
+
+.coluna{
+    flex: 0;
+    box-sizing: border-box;
+    /* deixa as bordars alinhanhas independente do tamanho */
+}
+/* flex : 1 -> flex -> significa que ocupe todo espaço disponivel, e tem dois os valores 1 e 0 , 1 seria verdadeiro e 0 é falso */
+/* propriedade do flex : 0 0 33,33% , o primeiro zero é de se pode crescer e o segundo zero é para diminuir e o 33,33% é o tamanho que pretendo estar  */
+.coluna-1{
+    flex: 0 0 8.33%;
+}
+.coluna-2{
+    flex: 0 0 16.67%;
+}
+.coluna-3{
+    flex: 0 0 25%;
+}
+
+.coluna-4{
+    flex: 0 0 33.33%;
+}
+.coluna-5{
+    flex: 0 0 41.67%;
+}
+.coluna-6{
+    flex: 0 0 50%;
+}
+.coluna-7{
+    flex: 0 0 58.33%;
+}
+.coluna-8{
+    flex: 0 0 66.67%;
+}
+.coluna-9{
+    flex: 0 0 75%;
+}
+.coluna-10{
+    flex: 0 0 83.33%;
+}
+.coluna-11{
+    flex: 0 0 91.67% ;
+}
+.coluna-12{
+    flex: 0 0 100%;
+}
+
+.bg-tomato{
+    background-color: tomato;
+    font-size: 30px;
+}
+
