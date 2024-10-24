@@ -3,6 +3,7 @@
     display:flex;
     flex-wrap: wrap;
     /* se pode quebrar linhas ou não */
+    /* o nowrap -> quebra a linha ao contrario */
     margin: 10px;
 }
 
